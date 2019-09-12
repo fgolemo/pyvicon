@@ -18,7 +18,7 @@ class DistanceRewardWrapper(gym.core.Wrapper):
 
         done = False
         if dist is None:
-            reward = -1
+            reward = 0
         else:
             if dist <= self.thresh:
                 done = True
