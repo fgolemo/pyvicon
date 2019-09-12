@@ -21,7 +21,7 @@ t = Tracker("192.168.10.102:801", ["cube1", "ergo1"])
 
 
 print("=== BOTH ===")
-for _ in range(10000):
+for _ in range(100000):
     print (t.get_dist(["cube1","ergo1"]))
 
 
